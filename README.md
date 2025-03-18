@@ -1,20 +1,38 @@
-AgriData Explorer: Understanding Indian Agriculture with EDA
+# Agri Capstone Project
 
-Project Overview
+## Overview
+This repository contains all necessary files for the **Agri Capstone Project**, which focuses on data cleaning, exploratory data analysis (EDA), and SQL-based insights related to agricultural data.
 
-India's agricultural sector plays a crucial role in the economy, but managing agricultural data remains a challenge due to its complexity and fragmented nature. This project, AgriData Explorer, focuses on analyzing Indian agricultural data through Exploratory Data Analysis (EDA), SQL integration, and interactive visualizations. The goal is to provide insights into crop production, yields, and farming areas across different states and districts in India.
+## Repository Structure
 
-Key Steps in the Project
+### 1. Jupyter Notebooks
+- **agri_cap_data_cleaning_github.ipynb** - Notebook for data preprocessing and cleaning.
+- **agr_capstone_eda_github.ipynb** - Notebook for exploratory data analysis (EDA).
 
-Data Collection & Cleaning: Loading data from Excel, renaming columns, removing invalid values, and preparing structured datasets.
+### 2. SQL Scripts
+- **agri_capstone_project_github.sql** - Contains SQL table creation and data insertion queries.
+- **agri_capstone_project_10_query_github.sql** - Includes 10 key SQL queries for data analysis.
+- **agri_capstone_project_query_github.sql** - EDA queries performed using SQL.
 
-Exploratory Data Analysis (EDA): Performing univariate, bivariate, and multivariate analysis to uncover trends and insights.
+## How to Use
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Jeevacse07/agri-capstone-project.git
+   ```
 
-SQL Integration: Structuring data into MySQL tables and executing SQL queries for deeper insights.
+2. Open Jupyter Notebooks for data processing and analysis:
+   ```sh
+   jupyter notebook
+   ```
 
-Analytical Solutions: Addressing 10 key agricultural questions using SQL and Python-based analysis.
+3. Run SQL queries using any SQL database management tool.
 
-Visualization & Reporting: Creating interactive charts and Power BI dashboards for intuitive data representation.
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Pandas, NumPy, Matplotlib, Seaborn (for notebooks)
+- SQL database (e.g., MySQL, PostgreSQL) for executing SQL queries
 
-This project serves as a data-driven tool for farmers, policymakers, and researchers to make informed decisions regarding agriculture in India.
+## License
+This project is licensed under the MIT License.
 
